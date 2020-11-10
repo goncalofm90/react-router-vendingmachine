@@ -1,0 +1,17 @@
+.Navbar {
+  background: rgb(30, 35, 37);
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbar a {
+  color: white;
+  transition: all 0.5s ease; 
+  text-decoration: none;
+}
+
+.Navbar a.Navbar-active{
+  color: lemonchiffon;
+}

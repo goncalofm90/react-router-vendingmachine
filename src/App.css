@@ -1,3 +1,9 @@
+body {
+  background-color: rgba(69, 90, 100, 1);
+  color: white;
+  font-family: 'Syne Mono', monospace;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +34,12 @@
   color: #61dafb;
 }
 
+img {
+  width: 50vh;
+  height: 50%;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +47,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: lemonchiffon;
 }
